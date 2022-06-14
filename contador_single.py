@@ -5,6 +5,8 @@ CUENTA = 50000000
 
 def cuenta(n):
     while n > 0:
+        if n % 10000000 == 0:
+            print(f"cruce un multiplo de 10 millones de cuentas")
         n -= 1
 
 
