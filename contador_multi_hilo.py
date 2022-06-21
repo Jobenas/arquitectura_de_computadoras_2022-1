@@ -5,8 +5,8 @@ CUENTA = 50000000
 
 def cuenta(n, name):
     while n > 0:
-        if n % 10000000 == 0:
-            print(f"Estoy en el hilo: {name}")
+        # if n % 10000000 == 0:
+        #     print(f"Estoy en el hilo: {name}")
         n -= 1
 
 
