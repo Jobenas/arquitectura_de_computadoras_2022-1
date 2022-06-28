@@ -3,7 +3,7 @@ from multiprocessing import Process, cpu_count
 
 CUENTA = 50000000
 
-num_proc = cpu_count() * 4
+num_proc = cpu_count()
 procesos = []
 
 def cuenta(n):
